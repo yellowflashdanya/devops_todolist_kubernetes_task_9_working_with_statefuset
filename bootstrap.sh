@@ -16,7 +16,7 @@ kubectl apply -f .infrastructure/pvc.yml
 # Creating secret and configMap
 kubectl apply -f .infrastructure/secret.yml
 kubectl apply -f .infrastructure/mysql-configMap.yml
-kubectl apply -f .infrastructure/confgiMap.yml
+kubectl apply -f .infrastructure/configMap.yml
 
 # Creating statefulSet for mysql
 kubectl apply -f .infrastructure/statefulSet.yml
